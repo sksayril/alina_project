@@ -82,3 +82,6 @@ if __name__=="__main__":
             speak("This Web Site is A, Static Web Page. Web Site is Under Maintainents")
             webbrowser.open("https://webbiscuit.000webhostapp.com/")
             speak("Openinng")
+        elif 'open kitpot' in query:
+            webbrowser.open("kitpot.in")
+            speak("open kitpot")

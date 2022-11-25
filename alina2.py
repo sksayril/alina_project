@@ -98,6 +98,9 @@ if __name__=="__main__":
         elif 'open MS Word' in query:
             run('Word')
             speak("opening Word")
+        elif 'open cortana' in query:
+            run("cortana")
+            speak("opening cortana")
 # while True:
 #     # take input
 #     print("    CHAT WITH ME WITH YOUR REQUIREMENTS : ", end='')
@@ -126,7 +129,7 @@ if __name__=="__main__":
 #         print(".")
 #         os.system("msedge")
  
-#     elif ("NOTE" in p) or ("NOTES" in p) or ("NOTEPAD" in p) or ("EDITOR" in p) or ("9" in p):
+#     elif ("NO" in p) or ("NOTES" in p) or ("NOTEPAD" in p) or ("EDITOR" in p) or ("9" in p):
 #         pyttsx3.speak("Opening")
 #         pyttsx3.speak("NOTEPAD")
 #         print(".")

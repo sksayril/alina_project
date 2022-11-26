@@ -94,7 +94,8 @@ if __name__=="__main__":
             speak("Opening Excel")
         elif 'open visual studio code' in query:
             run('visual Studio Code')
-            speak("opening Visual studio code")
+            speak("opening Visual studio code") 
+            #djjsdksdlspldpsldpslpdlpsldpsldldsplpdlpdldl
         elif 'open MS Word' in query:
             run('Word')
             speak("opening Word")
